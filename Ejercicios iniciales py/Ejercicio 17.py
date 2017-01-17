@@ -6,13 +6,11 @@ segundoNumero = int(input("Escribe el segundo numero aqui: "))
 
 listaPares = []
 listaImpares = []
-for numero in range (primerNumero,segundoNumero+1):
+for numero in range(primerNumero,segundoNumero+1):
     if numero %2 == 0:
-        listaPares.append(numero)
-    elif numero %2 == 1:
-        listaImpares.append(numero)
+      listaPares.append(numero)
     else:
-        "No es un numero"
+      listaImpares.append(numero)
 
 sumaPares = sum(listaPares)
 sumaImpares = sum(listaImpares)
